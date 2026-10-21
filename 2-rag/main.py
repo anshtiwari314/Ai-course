@@ -11,9 +11,9 @@ class ChatServices():
 
         #print(api_key)
 
+
         self.client = AsyncOpenAI(
             api_key = api_key,
-            
             base_url = "https://openrouter.ai/api/v1"
         )
 
